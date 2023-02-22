@@ -1,0 +1,25 @@
+.nav {
+  display: inline;
+  justify-content: center;
+  background-color: azure;
+  text-align: center;
+  padding: 20px;
+}
+
+li a {
+  color: black;
+  padding: 14px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  border-radius: 50px;
+  background-color: aquamarine;
+  color: black;
+}
+.active {
+  font-weight: bold;
+}
+.hakkimda {
+  font-weight: bold;
+}

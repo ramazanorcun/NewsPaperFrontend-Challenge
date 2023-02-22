@@ -1,0 +1,15 @@
+.carouselİtem {
+  background-color: black;
+  height: 25rem;
+}
+.sliderİmg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#slideText {
+  text-align: right;
+  float: left;
+  height: auto;
+}

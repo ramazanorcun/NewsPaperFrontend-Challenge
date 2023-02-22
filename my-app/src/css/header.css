@@ -1,0 +1,31 @@
+#headerİd {
+  padding: 15px;
+}
+
+input.search {
+  border-radius: 50px;
+  margin: 5px;
+  text-align: center;
+  background-color: azure;
+  color:rgb(58, 58, 123);
+  text-transform: uppercase;
+}
+
+#btn1 {
+  border-radius: 50px;
+  transition: all 0.4s;
+  text-transform: uppercase;
+}
+
+#btn1:hover{
+  background-color: aliceblue;
+  color: orange;
+}
+
+.isim{
+  text-align: start;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+

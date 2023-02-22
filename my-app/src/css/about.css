@@ -1,0 +1,138 @@
+.aboutTitles  {
+  background-color: rgb(240, 240, 240);
+  background-position: 0%;
+  
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+.grid-container-1 > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+}
+
+.grid-container-2 {
+  grid-template-columns: auto auto;
+  display: grid;
+  gap: 10px;
+}
+.grid-container-2 p {
+  font-size: medium;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2 / span 3;
+  grid-row: 1;
+}
+.item3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.item4 {
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+.item5 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.item6 {
+  grid-column: 2 / span 3;
+  grid-row: 3;
+}
+.item7 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.item8 {
+  grid-column: 2 / span 3;
+  grid-row: 4;
+}
+.item9 {
+  grid-column: 1;
+  grid-row: 5;
+}
+.item10 {
+  grid-column: 2 / span 3;
+  grid-row: 5;
+}
+
+.grid-container-2 {
+  grid-template-columns: auto auto;
+  display: grid;
+  gap: 10px;
+}
+#levelBox {
+  background-color: black;
+  display: inline-block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+#levelBoxBos {
+  border-color: black;
+  display: inline-block;
+  border: 2px solid;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+.levelbox1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.levelBox2 {
+  grid-column: 2 / span 3;
+  grid-row: 1;
+}
+.levelBox3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.levelBox4 {
+  grid-column: 2 / span 3;
+  grid-row: 2;
+}
+
+.levelBox5 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.levelBox6 {
+  grid-column: 2 / span 3;
+  grid-row: 3;
+}
+.levelBox7 {
+  grid-column: 1;
+  grid-row: 4;
+}
+.levelBox8 {
+  grid-column: 2 / span 3;
+  grid-row: 4;
+}
+.levelBox9 {
+  grid-column: 1;
+  grid-row: 5;
+}
+.levelBox10 {
+  grid-column: 2 / span 3;
+  grid-row: 5;
+}
